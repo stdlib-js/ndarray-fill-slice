@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@esm/index.mjs';
+import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@v0.1.0-esm/index.mjs';
 ```
 
 #### fillSlice( x, value, ...s\[, options] )
@@ -203,7 +203,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index
 import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@esm/index.mjs';
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@esm/index.mjs';
+import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@v0.1.0-esm/index.mjs';
 
 // Create a zero-filled ndarray:
 var x = zeros( [ 2, 3, 4 ], {
