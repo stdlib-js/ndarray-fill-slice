@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-fill-slice/tags). For example,
+
+```javascript
 import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@v0.1.1-deno/mod.js';
 ```
 
@@ -198,7 +203,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.
 import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@v0.1.1-deno/mod.js';
+import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@deno/mod.js';
 
 // Create a zero-filled ndarray:
 var x = zeros( [ 2, 3, 4 ], {
