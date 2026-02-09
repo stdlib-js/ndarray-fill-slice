@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@deno/mod.js';
+import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@v0.1.1-deno/mod.js';
 ```
 
 #### fillSlice( x, value, ...s\[, options] )
@@ -198,7 +198,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.
 import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@deno/mod.js';
+import fillSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-slice@v0.1.1-deno/mod.js';
 
 // Create a zero-filled ndarray:
 var x = zeros( [ 2, 3, 4 ], {
